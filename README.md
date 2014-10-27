@@ -1,5 +1,3 @@
-Pipe a csv file with username, password rows into this bcrypt-bcrypt-pipe to replace plaintext with cipher text. Can compared cipher text to plaintext. An attempt at using streams in node.js
-
 #Bcrypt Pipe 
 
 The purpose of this module is to generate hashes of a list of plaintext passwords easily and
