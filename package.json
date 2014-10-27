@@ -1,6 +1,6 @@
 {
   "name": "bcrypt-pipe",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Pipe username,password into this module to generate ciphertext from plaintext or to compare ciphertext with plaintext",
   "repository": {
     "type": "git",
