@@ -1,4 +1,4 @@
-#Bcrypt Pipe 
+#bcrypt pipe 
 
 The purpose of this module is to generate hashes of a list of plaintext passwords easily and
 then to compare ciphertext of the result with the original plaintext. 
