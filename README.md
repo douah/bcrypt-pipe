@@ -1,6 +1,6 @@
-Pipe a csv file with username, password rows into this bcrypt-pipe-test to replace plaintext with cipher text. Can compared cipher text to plaintext. An attempt at using streams in node.js
+Pipe a csv file with username, password rows into this bcrypt-bcrypt-pipe to replace plaintext with cipher text. Can compared cipher text to plaintext. An attempt at using streams in node.js
 
-#Bcrypt Pipe test
+#Bcrypt Pipe 
 
 The purpose of this module is to generate hashes of a list of plaintext passwords easily and
 then to compare ciphertext of the result with the original plaintext. 
@@ -13,7 +13,7 @@ There are two options when using this file:
 
 To generate ciphertext
 
-`cat users.csv | node pipe-test.js > passwords.csv`
+`cat users.csv | node bcrypt-pipe.js > passwords.csv`
 
 e.g. users.csv
 
@@ -24,7 +24,7 @@ wayne,password123
 
 To compare ciphertext
 
-`cat passwords.csv | node pipe-test.js`
+`cat passwords.csv | node bcrypt-pipe.js`
 
 Assuming that the cipher for bruce is correct and wayne's is wrong. 
 

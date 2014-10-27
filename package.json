@@ -1,12 +1,12 @@
 {
-  "name": "bcrypt-pipe-test",
+  "name": "bcrypt-pipe",
   "version": "0.0.1",
   "description" : "Pipe username,password into to generate ciphertext or to compare",
   "repository" : {
     "type" : "git",
-    "url" : "http://github.com/douah/bcrypt-pipe-test.git"
+    "url" : "http://github.com/douah/bcrypt-pipe.git"
   },  
-  "main" : "./pipe-test.js",
+  "main" : "./bcrypt-pipe.js",
   "keywords" : [
     "bcrypt",
     "pipe"
