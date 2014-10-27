@@ -1,21 +1,30 @@
 {
   "name": "bcrypt-pipe",
   "version": "0.0.1",
-  "description" : "Pipe username,password into this module to generate ciphertext from plaintext or to compare ciphertext with plaintext",
-  "repository" : {
-    "type" : "git",
-    "url" : "http://github.com/douah/bcrypt-pipe.git"
-  },  
-  "main" : "./bcrypt-pipe.js",
-  "keywords" : [
+  "description": "Pipe username,password into this module to generate ciphertext from plaintext or to compare ciphertext with plaintext",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/douah/bcrypt-pipe.git"
+  },
+  "main": "./bcrypt-pipe.js",
+  "keywords": [
     "bcrypt",
     "pipe"
   ],
   "dependencies": {
-    "bcrypt" :"~0.8.0"
+    "bcrypt": "~0.8.0",
+    "fs": "*",
+    "string_decoder": "*",
+    "optimist": "*"
   },
-  "author" : {
-    "name" : "Douah",
-    "url" : "http://github.com/douah"
-  }  
+  "author": "Douah (http://github.com/douah)",
+  "bugs": {
+    "url": "https://github.com/douah/bcrypt-pipe/issues"
+  },
+  "homepage": "https://github.com/douah/bcrypt-pipe",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
 }
