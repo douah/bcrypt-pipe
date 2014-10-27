@@ -22,7 +22,7 @@ wayne,password123
 
 To compare ciphertext
 
-`cat passwords.csv | node bcrypt-pipe.js`
+`cat passwords.csv | node bcrypt-pipe.js -c users.csv`
 
 Assuming that the cipher for bruce is correct and wayne's is wrong. 
 
