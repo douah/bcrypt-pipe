@@ -13,7 +13,6 @@
   ],
   "dependencies": {
     "bcrypt": "~0.8.0",
-    "fs": "*",
     "string_decoder": "*",
     "optimist": "*"
   },
